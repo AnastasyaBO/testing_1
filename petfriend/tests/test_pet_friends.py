@@ -166,22 +166,3 @@ def test_add_photo_of_a_pet_negative(pet_photo='images/little_cat.jpg'):
     status, result = pf.post_add_photo_of_a_pet(auth_key, pet_id, pet_photo)
 
     assert status == 400
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
